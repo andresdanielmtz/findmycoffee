@@ -8,7 +8,7 @@ export default function Title() {
       <h3> Let's find your ideal coffee place!</h3>
       <p className="text-3 font-bold underline text-sky-400">
         {" "}
-        Tailwind works!{" "}
+        Powered by Tailwind!{" "}
       </p>
       <button> Start </button>
     </div>
