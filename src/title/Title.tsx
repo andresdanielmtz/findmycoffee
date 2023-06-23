@@ -6,11 +6,11 @@ export default function Title() {
         Find My <div id="special_coffee">Coffee </div>☕️{" "}
       </h1>
       <h3> Let's find your ideal coffee place!</h3>
-      <p className="text-3 font-bold underline text-sky-400">
+      <p className="text-3 font-bold underline text-sky-400 py-4"> 
         {" "}
         Powered by Tailwind!{" "}
       </p>
-      <button> Start </button>
+      <button className = "bg-secondary"> Start </button>
     </div>
   );
 }
