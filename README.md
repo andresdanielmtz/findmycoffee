@@ -1,4 +1,4 @@
-# Find My Coffee
+# Find My Coffee ☕
 ### A React app that helps you find coffee shops near you
 You can also save your favorite coffee shops to your profile page and rate them with a 5-star rating system.
 
@@ -15,3 +15,15 @@ You can also save your favorite coffee shops to your profile page and rate them 
 - Implement Google Maps API
 - Implement Google Places API
 - Deploy with Netlify
+
+### Run this project.
+
+```
+npm i
+``` 
+To install all the dependencies.
+
+```
+npm run dev 
+```
+To run it locally on your computer.
