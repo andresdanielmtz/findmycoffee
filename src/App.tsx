@@ -1,6 +1,7 @@
 import "./App.css";
 import Navbar from "./navbar/Navbar";
 import Title from "./title/Title";
+import Dashboard from "./dashboard/Dashboard";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -16,13 +17,28 @@ function App() {
 
         <Routes>
           <Route
-            path="/dashboard"
+            path="/"
             element={
               <div className="flex justify-center">
                 <Title />
               </div>
             }
           />
+          <Route
+            path="/home"
+            element={
+              <div className="flex justify-center">
+                <Title />
+              </div>
+            }
+          />
+          <Route 
+            path="/dashboard"
+            element={
+              <Dashboard />
+            }
+          />
+
           <Route
             path="/aboutUs"
             element={
@@ -39,7 +55,6 @@ function App() {
               </div>
             }
           />
-          
         </Routes>
       </div>
     </BrowserRouter>

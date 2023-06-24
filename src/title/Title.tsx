@@ -1,4 +1,12 @@
+import { useNavigate } from "react-router-dom";
+
 export default function Title() {
+
+  const navigate = useNavigate();
+  function handleClick() {
+    navigate("/dashboard");
+  }
+
   return (
     <div>
       <h1 className="mainTitle">
@@ -10,7 +18,7 @@ export default function Title() {
         {" "}
         Powered by Tailwind!{" "}
       </p>
-      <button className = "bg-secondary"> Start </button>
+      <button onClick = {handleClick} className = "bg-secondary"> Start </button>
     </div>
   );
 }
