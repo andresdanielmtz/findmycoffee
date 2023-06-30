@@ -18,6 +18,7 @@ export default function Title() {
         {" "}
         Powered by Tailwind!{" "}
       </p>
+      <p> Made with love from Hermosillo! </p> 
       <button onClick = {handleClick} className = "bg-secondary"> Start </button>
     </div>
   );
